@@ -1,0 +1,66 @@
+nav {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 50px;
+  display: flex;
+}
+.navlinks {
+  display: flex;
+}
+.navlinks li {
+  margin: 7px 10px;
+  list-style: none;
+  padding: 7px 14px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.logout-btn {
+  margin: 0 !important;
+}
+.login {
+  background-color: white;
+  border: 2px solid rgb(216, 216, 216);
+  transition: all 0.3s;
+}
+.login:hover {
+  border: 2px solid rgb(148, 148, 148);
+}
+.login a {
+  color: rgb(78, 78, 78);
+}
+.signup {
+  background-color: rgb(5, 153, 138);
+  transition: all 0.3s;
+}
+.signup:hover {
+  background-color: #f1bd01;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.create-design {
+  background-color: teal;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 12px 14px 12px 14px;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+}
+.language {
+  padding: 0px 10px !important;
+  height: 40px;
+  margin-top: 15px !important;
+  border: 2px solid grey;
+  cursor: pointer;
+}

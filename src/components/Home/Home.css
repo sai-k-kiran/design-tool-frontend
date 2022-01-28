@@ -1,0 +1,147 @@
+.home-tab {
+  display: flex;
+  width: 100vw;
+}
+.home-side-bar {
+  height: 90vh;
+  width: 16%;
+  border-right: 1px solid #ddd;
+}
+.side-bar-links {
+  padding: 32px 0 0 20px;
+}
+.side-bar-link {
+  list-style: none;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.side-bar-link p {
+  color: black;
+}
+.side-bar-link svg {
+  font-size: 19px;
+  margin-right: 18px;
+  stroke: black;
+}
+.routeContainer {
+  width: 84%;
+}
+.active-route1,
+.active-route2,
+.active-route3 {
+  background-color: rgba(134, 134, 134, 0.336);
+  border-radius: 4px;
+}
+/*------------------Loading------------------*/
+
+.card {
+  background-color: rgb(117, 117, 117);
+  height: 160px;
+  width: 280px;
+  overflow: hidden;
+  margin: 12px auto;
+  border-radius: 5px;
+  box-shadow: 9px 17px 45px -29px rgba(0, 0, 0, 0.44);
+}
+
+/* Card image loading */
+.card__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__image.loading {
+  height: 160px;
+  width: 280px;
+}
+
+/* The loading Class */
+.loading {
+  position: relative;
+  background-color: #818080;
+}
+
+/* The moving element */
+.loading::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(transparent),
+    color-stop(rgba(255, 255, 255, 0.2)),
+    to(transparent)
+  );
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+
+  /* Adding animation */
+  animation: loading 0.8s infinite;
+}
+
+/* Loading Animation */
+@keyframes loading {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes ldio-w8exjuny6n {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ldio-w8exjuny6n > div > div {
+  position: absolute;
+  border-radius: 50%;
+}
+.ldio-w8exjuny6n > div > div:nth-child(1) {
+  top: 30px;
+  left: 30px;
+  width: 140px;
+  height: 140px;
+  background: #b1b0b0;
+}
+.ldio-w8exjuny6n > div > div:nth-child(2) {
+  top: 35.60000000000001px;
+  left: 79px;
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  animation: ldio-w8exjuny6n 1s linear infinite;
+  transform-origin: 21px 64.39999999999999px;
+}
+.loadingio-spinner-disk-euykzbk1md {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-w8exjuny6n {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-w8exjuny6n div {
+  box-sizing: content-box;
+}

@@ -1,0 +1,16 @@
+.striked-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.OR {
+  font-size: 10px;
+  color: #717477;
+  margin: 0 10px;
+}
+.striked-line hr {
+  height: 1px;
+  border: none;
+  background-color: #ddd;
+  width: 40%;
+}

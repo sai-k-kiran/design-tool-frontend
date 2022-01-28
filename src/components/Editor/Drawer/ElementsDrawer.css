@@ -1,0 +1,102 @@
+.elementsDrawer {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.itemListElem {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.itemElem {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px 10px 0;
+  fill: green;
+}
+.customScroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 50px);
+  margin-right: 4px;
+  margin-top: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.drawer-text {
+  color: white;
+  font-size: 12px;
+  margin-top: 60%;
+}
+.customScroll:hover::-webkit-scrollbar-thumb {
+  background-color: #5f646b;
+}
+.customScroll::-webkit-scrollbar {
+  width: 8px;
+  background-color: #293039;
+}
+.customScroll::-webkit-scrollbar-thumb {
+  background: #293039;
+  border-radius: 4px;
+}
+.header {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 60%;
+}
+.uploadsContainer {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.uploadBtn {
+  background-color: #dc85ff;
+  border-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  height: 40px;
+  width: 90%;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  transition: border-color 0.5s, background-color 0.5s;
+}
+.uploadBtn:hover {
+  background-color: #ffba25;
+}
+.uploadBtn:active {
+  background-color: #ffd22e;
+}
+input[type="file"] {
+  display: none;
+}
+.imageListElem {
+  display: flex;
+  flex-direction: column;
+}
+.imageElem {
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imageElem > img {
+  width: 80%;
+  height: 80%;
+}
+.elemIcons {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.elemIcons:hover {
+  filter: invert(60%);
+}

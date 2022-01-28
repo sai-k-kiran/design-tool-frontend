@@ -1,0 +1,64 @@
+{
+    "head1" : "Design hvad som helst.",
+    "head2" : "Udgiv hvor som helst.",
+    "loginp" : "Opret en konto, det er gratis. Gwaphics er elsket af begyndere og eksperter, hold og enkeltpersoner.",
+    "logingoogle" : "Log ind med Google",
+    "loginfacebook" : "Login med Facebook",
+    "loginLinkedIn" : "Log ind med LinkedIn",
+    "logindemo" : "Log ind som demobruger",
+    "loginaccount" : "Log ind på Gwaphics-konto",
+    "OR" : "ELLER",
+    "newTographics": "Ny til Graphics? ",
+    "register" : "Tilmelde",
+   
+    "signinhead": "Log ind på din konto",
+    "signinp": "Log ind på din allerede oprettede konto",
+    "email": "E-mail",
+    "password": "Adgangskode",
+    "signIn" : "Log på",
+
+    "AllDesigns" : "Alle Designs",
+    "Saved" : "Gemte Designs",
+    "Uploads" : "Uploadede billeder",
+    "welcome": "Velkommen til",
+    "create-design" : "Lav et design",
+
+    "update-profile": "Opdater din profil",
+    "address": "Adresse",
+    "company": "Firmanavn",
+    "phone": "Telefonnummer",
+    "logo": "Upload et billede",
+    "submit": "Indsend",
+
+    "sign-out": "Log ud",
+    "update": "Opdater profil",
+
+    "front": "Tage den op foran",
+    "font": "Skrifttype",
+    "delete": "slet",
+    "transparency": "Gennemsigtighed",
+
+    "home": "Hjem",
+    "save": "Gemme",
+    "download": "Hent",
+
+    "photos": "Fotos",
+    "elements": "Elementer",
+    "text": "Tekst",
+    "uploads": "Uploads",
+
+    "click-add": "Klik på Tekst for at tilføje til siden",
+    "text1": "Tilføj en overskrift",
+    "text2": "Tilføj en underoverskrift",
+    "text3": "Tilføj en lille smule brødtekst",
+
+    "zoom-in": "Zoom ind",
+    "zoom-out": "Zoom ud",
+
+    "saved": "Designet er gemt",
+    "no-images": "Ingen uploadede billeder",
+    "no-saved": "Ingen gemte designs",
+
+    "category": "indtaste en kategori"
+    
+}

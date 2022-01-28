@@ -1,0 +1,89 @@
+.login-box {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+.login-info {
+  margin: 70px 20px;
+  display: block;
+  width: 25%;
+}
+.login-info h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+.login-info p {
+  color: #717477;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.login-btn {
+  display: flex;
+  padding: 8px 9px;
+  width: 92%;
+  font-size: 15px;
+  margin-bottom: 16px;
+  background-color: white;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.google-btn,
+.facebook-btn,
+.linkedin-btn {
+  border: 2px solid #dcdcdc;
+}
+.facebook-btn svg {
+  color: #4267b2;
+}
+.linkedin-btn svg {
+  color: #0e76a8;
+}
+.demo {
+  border: 2px solid #dcdcdc;
+}
+.signup-btn {
+  border: 2px solid teal;
+  background-color: teal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.signup-btn:hover {
+  border: 2px solid #f1bd01;
+  background-color: #f1bd01;
+}
+.login-btn span {
+  width: 90%;
+  color: #717477;
+}
+.login-foot {
+  font-size: 10px !important;
+}
+.login-foot a {
+  color: teal;
+  text-decoration: underline;
+}
+.login-pic {
+  width: 70%;
+}
+.login-vector {
+  height: 100%;
+  width: 78%;
+  margin-left: 250px;
+  margin-top: 40px;
+}
+/*------------------Logout.jsx------------------*/
+.drop-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.user-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(9, 255, 255, 0.267);
+}

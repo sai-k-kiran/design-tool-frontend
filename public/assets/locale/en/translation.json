@@ -1,0 +1,63 @@
+{
+    "head1" : "Design anything",
+    "head2" : "Publish anywhere.",
+    "loginp" : "Create a account, it's free. Gwaphics is loved by beginners and experts, teams and individuals.",
+    "logingoogle" : "Login with Google",
+    "loginfacebook" : "Login with Facebook",
+    "loginLinkedIn" : "Login with LinkedIn",
+    "logindemo" : "Login as demo user",
+    "loginaccount" : "Login to graphics account",
+    "OR" : "OR",
+    "newTographics": "New To Graphics? ",
+    "register" : "Register",
+
+    "signinhead": "Log in to your account",
+    "signinp": "Log in to your already created account",
+    "email": "Email",
+    "password": "Password",
+    "signIn" : "Login",
+
+    "AllDesigns" : "All Designs",
+    "Saved" : "Saved Designs",
+    "Uploads" : "Uploaded Images",
+    "welcome": "Welcome",
+    "create-design" : "Create a design",
+
+    "update-profile": "Update your profile",
+    "address": "Address",
+    "company": "Company name",
+    "phone": "Phone number",
+    "logo": "Upload a logo",
+    "submit": "Submit",
+
+    "sign-out": "Log out",
+    "update": "Update profile",
+
+    "front": "Bring to Front",
+    "font": "Font Style",
+    "delete": "Delete",
+    "transparency": "Transparency",
+
+    "home": "Home",
+    "save": "Save",
+    "download": "Download",
+
+    "photos": "Photos",
+    "elements": "Elements",
+    "text": "Text",
+    "uploads": "Uploads",
+
+    "click-add": "Click to add text",
+    "text1": "Add a heading",
+    "text2": "Add a sub-heading",
+    "text3": "Add a little of body text",
+
+    "zoom-in": "Zoom in",
+    "zoom-out": "Zoom out",
+
+    "saved": "Design saved",
+    "no-images": "No uploaded images",
+    "no-saved": "No saved designs",
+
+    "category": "Enter a category"
+}

@@ -1,0 +1,138 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(34, 34, 34, 0.692);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.modalContainer,
+.popupContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.popupContainer {
+  width: 400px !important;
+  height: 400px !important;
+}
+.topBlock {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(55, 48, 161, 1) 0%,
+    rgba(223, 60, 241, 1) 44%,
+    rgba(236, 169, 43, 1) 100%
+  );
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.title {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.titleCloseBtn {
+  display: block;
+  position: absolute;
+  left: 90%;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+}
+.Modalbody {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 20px;
+}
+.modalForm {
+  height: 100%;
+  width: 100%;
+}
+.input-form {
+  padding: 30px 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-form > input {
+  display: block;
+  width: 60%;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  border: 1px solid grey;
+  outline: none;
+}
+.footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer button {
+  width: 120px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  background: rgba(55, 48, 161, 1);
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.upload-Btn {
+  background-color: #dc85ff;
+  border-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  height: 40px;
+  width: 60%;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 0 auto;
+  transition: border-color 0.5s, background-color 0.5s;
+}
+.upload-Btn:hover {
+  background-color: #ffba25;
+}
+.upload-Btn:active {
+  background-color: #ffd22e;
+}
+.errorMessage {
+  padding: 2px;
+  margin-bottom: 6px;
+  color: red;
+  font-size: 13px;
+  background-color: rgb(247, 218, 214);
+}
+.true {
+  visibility: visible;
+}
+.false {
+  visibility: hidden;
+}
